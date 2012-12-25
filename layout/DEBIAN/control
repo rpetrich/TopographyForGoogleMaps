@@ -1,0 +1,9 @@
+Package: com.rpetrich.topographyforgooglemaps
+Priority: optional
+Section: Tweaks
+Architecture: iphoneos-arm
+Version: 0.1
+Description: Adds topography option to Google Maps app
+Name: Topography for Google Maps
+Depends: firmware (>= 5.1), mobilesubstrate
+Author: Ryan Petrich

@@ -5,7 +5,7 @@
 - (UIButton *)buttonWithTitle:(NSString *)title imageSelector:(SEL)imageSelector layerOption:(unsigned)layerOption
 {
 	%log;
-	BOOL isEarth = [title isEqualToString:@"Google Earth"];
+	BOOL isEarth = layerOption == 8;
 	if (isEarth) {
 		title = @"Topography";
 		imageSelector = @selector(layersSatelliteButtonForState:);
